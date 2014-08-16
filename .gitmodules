@@ -1,0 +1,18 @@
+[submodule "insight-cb"]
+	path = insight-cb
+	url = https://github.com/MinerAp/insight-cb.git
+[submodule "insight-api"]
+	path = insight-api
+	url = https://github.com/MinerAp/insight-api.git
+[submodule "insight-common"]
+	path = insight-common
+	url = https://github.com/MinerAp/insight-common.git
+[submodule "insight-parser"]
+	path = insight-parser
+	url = https://github.com/MinerAp/insight-parser.git
+[submodule "insight-sql"]
+	path = insight-sql
+	url = https://github.com/MinerAp/insight-sql.git
+[submodule "insight-plugin"]
+	path = insight-plugin
+	url = https://github.com/MinerAp/insight-plugin.git
