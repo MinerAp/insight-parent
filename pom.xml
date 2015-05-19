@@ -60,7 +60,6 @@
 	</distributionManagement>
 
 	<properties>
-		<java.version>1.7</java.version>
 		<libdir>com.amshulman.insight.lib</libdir>
 		<antlr4-runtime.version>4.3</antlr4-runtime.version> <!-- http://search.maven.org/#browse|1914910960 -->
 		<trove4j.version>3.0.3</trove4j.version> <!-- http://search.maven.org/#browse|-646375428 -->
@@ -133,19 +132,4 @@
 			<url>http://repo.minerap.com/content/groups/public/</url>
 		</repository>
 	</repositories>
-
-	<build>
-		<pluginManagement>
-			<plugins>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-compiler-plugin</artifactId>
-					<configuration>
-						<source>${java.version}</source>
-						<target>${java.version}</target>
-					</configuration>
-				</plugin>
-			</plugins>
-		</pluginManagement>
-	</build>
 </project>
